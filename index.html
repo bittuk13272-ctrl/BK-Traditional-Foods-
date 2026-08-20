@@ -1,176 +1,161 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>अपनी धरती का स्वाद | अनरसा</title>
 
-  <title>अपने देश का स्वाद | पारंपरिक अनरसा</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
 
-  <meta name="description"
-    content="अपने देश का स्वाद - पारंपरिक अनरसा। अहियासा, जहानाबाद, बिहार से आपके घर तक।">
+body{
+background:#f8f2e7;
+color:#3b2414;
+}
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, "Noto Sans Devanagari", sans-serif;
-    }
+header{
+background:#5c2d0c;
+color:white;
+padding:20px;
+text-align:center;
+}
 
-    html {
-      scroll-behavior: smooth;
-    }
+header h1{
+font-size:40px;
+}
 
-    body {
-      background: #fff8ed;
-      color: #3b1f0f;
-      line-height: 1.6;
-    }
+header p{
+font-size:18px;
+}
 
-    header {
-      background: #5b2d0c;
-      color: white;
-      padding: 16px 6%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 3px 12px rgba(0,0,0,.2);
-    }
+.hero{
+padding:30px;
+text-align:center;
+}
 
-    .logo {
-      font-size: 25px;
-      font-weight: bold;
-    }
+.hero img{
+width:90%;
+max-width:500px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 18px;
-      font-size: 15px;
-    }
+.hero h2{
+margin-top:20px;
+font-size:35px;
+}
 
-    nav a:hover {
-      color: #ffd28a;
-    }
+.hero p{
+margin-top:10px;
+font-size:18px;
+}
 
-    .hero {
-      min-height: 620px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 70px 20px;
+.features{
+padding:30px;
+background:white;
+}
 
-      background:
-        linear-gradient(rgba(55,24,5,.70), rgba(55,24,5,.70)),
-        url("anarsa.jpg") center/cover no-repeat;
+.features h2{
+text-align:center;
+margin-bottom:20px;
+}
 
-      color: white;
-    }
+.features ul{
+max-width:600px;
+margin:auto;
+font-size:20px;
+line-height:40px;
+}
 
-    .hero-content {
-      max-width: 800px;
-    }
+.contact{
+padding:30px;
+text-align:center;
+background:#fff7ed;
+}
 
-    .tagline {
-      font-size: 18px;
-      letter-spacing: 1px;
-      margin-bottom: 12px;
-    }
+.btn{
+display:inline-block;
+margin:10px;
+padding:15px 25px;
+background:#8b4513;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
 
-    .hero h1 {
-      font-size: 58px;
-      margin-bottom: 10px;
-      text-shadow: 2px 3px 8px rgba(0,0,0,.5);
-    }
+footer{
+background:#5c2d0c;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
 
-    .hero h2 {
-      font-size: 30px;
-      margin-bottom: 15px;
-    }
+</head>
 
-    .hero p {
-      font-size: 19px;
-      margin-bottom: 28px;
-    }
+<body>
 
-    .btn {
-      display: inline-block;
-      padding: 14px 27px;
-      margin: 5px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      background: #e9a13a;
-      color: #3b1f0f;
-      transition: .3s;
-    }
+<header>
+<h1>अपनी धरती का स्वाद</h1>
+<p>परंपरा का असली स्वाद - अनरसा</p>
+</header>
 
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,.25);
-    }
+<section class="hero">
+<img src="anarsa.jpg" alt="अनरसा">
 
-    .whatsapp {
-      background: #25D366;
-      color: white;
-    }
+<h2>100% शुद्ध देसी अनरसा</h2>
 
-    .call {
-      background: white;
-      color: #5b2d0c;
-    }
+<p>स्वादिष्ट • हेल्दी • बिना केमिकल • बिना प्रिज़र्वेटिव</p>
 
-    section {
-      padding: 70px 7%;
-    }
+<a class="btn" href="tel:9006247956">📞 अभी कॉल करें</a>
 
-    .section-title {
-      text-align: center;
-      font-size: 35px;
-      margin-bottom: 40px;
-    }
+<a class="btn" href="https://wa.me/919006247956">💬 WhatsApp पर ऑर्डर करें</a>
 
-    /* PRODUCT */
+</section>
 
-    .product {
-      max-width: 1050px;
-      margin: auto;
-      background: white;
-      border-radius: 22px;
-      padding: 30px;
-      display: flex;
-      gap: 45px;
-      align-items: center;
-      box-shadow: 0 6px 25px rgba(0,0,0,.10);
-    }
+<section class="features">
 
-    .product img {
-      width: 46%;
-      max-width: 450px;
-      border-radius: 18px;
-      object-fit: cover;
-    }
+<h2>हमारा वादा</h2>
 
-    .product-info {
-      flex: 1;
-    }
+<ul>
 
-    .product-info h3 {
-      font-size: 37px;
-      margin-bottom: 12px;
-    }
+<li>✅ 100% शुद्ध देसी सामग्री</li>
 
-    .product-info p {
-      font-size: 17px;
-      margin-bottom: 12px;
-    }
+<li>✅ पारंपरिक तरीके से तैयार</li>
 
-    .price {
-      font-size: 23px;
-      font-weight: bold;
-      color: #9b4b13;
-      margin:
+<li>✅ स्वादिष्ट और पौष्टिक</li>
+
+<li>✅ बिना केमिकल</li>
+
+<li>✅ बिना प्रिज़र्वेटिव</li>
+
+<li>✅ त्योहार, पूजा, शादी एवं सभी अवसरों के लिए</li>
+
+</ul>
+
+</section>
+
+<section class="contact">
+
+<h2>संपर्क करें</h2>
+
+<p><b>📞 9006247956</b></p>
+
+<p>📍 अहियासा, जहानाबाद, बिहार - 804420</p>
+
+</section>
+
+<footer>
+
+© 2026 अपनी धरती का स्वाद | सभी अधिकार सुरक्षित
+
+</footer>
+
+</body>
+</html>
