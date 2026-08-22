@@ -38,11 +38,20 @@ padding:30px;
 text-align:center;
 }
 
-.hero img{
+.hero{
     width:100%;
-    aspect-ratio:1536 / 878;
-    object-fit:cover;
+    padding:20px 0;
+    text-align:center;
+}
+
+.hero img{
+    display:block;
+    width:95%;
+    max-width:1400px;
+    height:auto;
+    margin:20px auto;
     border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.30);
 }
 
 .hero h2{
@@ -99,7 +108,13 @@ font-size:18px;
 <h1>Bk graphic designing</h1>
 <p>By bittu chauhan- Graphics designer</p>
 </header>
-
+.hero img{
+    display:block;
+    width:100%;
+    height:auto;
+    margin:0;
+    border-radius:0;
+}
 <section class="hero">
 <img src="file_00000000187481fabb8fcfcdf9cd3549.png" alt="designing">
 <img src="file_0000000070a481fabf55b300ebddbf10.png" alt="designing">
@@ -118,7 +133,6 @@ font-size:18px;
 
 <a class="btn" href="https://wa.me/919006247956">💬 WhatsApp पर ऑर्डर करें</a>
 
-</section>
 
 <section class="features">
 
@@ -182,8 +196,6 @@ font-size:18px;
 <input type="hidden" name="_captcha" value="false">
 
   </form>
-  </form>
-</section>
 
 <style>
 .order-form{
