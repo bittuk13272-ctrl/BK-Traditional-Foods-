@@ -1,5 +1,69 @@
 <!DOCTYPE html>
 <html lang="hi">
+  /* Mobile Responsive Images */
+.hero{
+    width:100%;
+    padding:10px;
+}
+
+.hero img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:15px auto;
+    border-radius:18px;
+    object-fit:contain;
+}
+
+/* सभी Sections */
+section{
+    width:100%;
+    padding:10px;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+body{
+    overflow-x:hidden;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+    margin:12px 0;
+    border-radius:15px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+header h1{
+    font-size:34px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.btn{
+    width:100%;
+    display:block;
+    text-align:center;
+    margin:10px 0;
+}
+
+.features,
+.contact,
+.order-form,
+.social-section{
+    width:100%;
+    padding:15px;
+}
+}
 <section class="hero">
 <img src="file_00000000187481fabb8fcfcdf9cd3549.png" alt="designing">
 <img src="file_0000000070a481fabf55b300ebddbf10.png" alt="designing">
